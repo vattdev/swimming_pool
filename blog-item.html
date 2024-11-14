@@ -103,18 +103,82 @@
 		</header>
 
 		<main class="main">
-			<section class="section-main">
-				<div class="section-main__content">
-					<video class="section-main__video" src="img/preview.mp4" autoplay muted></video>
-					<div class="section-main__text">
-						<h2 class="section-main__title">Плавание - стиль жизни!</h2>
-						<h1 class="section-main__subtitle">Ставропольский плавательный бассейн "ЮНОСТЬ"</h1>
+			<section class="section-blog-item">
+				<div class="section-blog-item__container">
+					<div class="section-blog-item__blog blog blog-big">
+						<div href="#" class="blog__content">
+							<div data-gallery class="blog__part blog__right">
+								<div class="card-head">
+									<div class="card-head__left">
+										<div class="card-head__ava">
+											<picture><source srcset="img/news/ava1.webp" type="image/webp"><img src="img/news/ava1.jpg" alt="" /></picture>
+										</div>
+										<div class="card-head__author">
+											<div class="card-head__name">Администрация</div>
+											<div class="card-head__time">
+												<span>5 дней назад</span>
+												<span>1 мин. чтения</span>
+											</div>
+										</div>
+									</div>
+
+									<div class="card-head__right">
+										<a href="#" class="card-head__btn">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#share"></use>
+											</svg>
+											<span>Поделиться</span>
+										</a>
+									</div>
+								</div>
+								<div class="blog__link">
+									<div class="blog__title">СКОРО!</div>
+									<div class="blog__subtitle">
+										Рады сообщить о том, что 15 декабря в Спортивно-оздоровительном комплексе "Юность" состоится
+										НОВОГОДНИЙ ТУРНИР ПО ПЛАВАНИЮ 2024 среди детей и взрослых, занимающихся в нашем бассейне!!! Для
+										подачи заявки на участие в турнире и для получения более подробной информации по программе
+										заплывов, необходимо обратиться к вашему инструктору- методисту или в приемную.
+									</div>
+								</div>
+								<a href="img/news/1.png" class="blog__img">
+									<picture><source srcset="img/news/1.webp" type="image/webp"><img src="img/news/1.png" alt="" /></picture>
+								</a>
+								<div class="blog__foot">
+									<div class="blog__icons">
+										<div class="card__link">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#view"></use>
+											</svg>
+											<span>3</span>
+										</div>
+										<a href="blog-item.html" class="blog__icon blog__comments">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#comment"></use>
+											</svg>
+											<span>0</span>
+										</a>
+									</div>
+									<a href="#" class="blog__icon blog__like">
+										<svg>
+											<use xlink:href="img/icons/icons.svg#like"></use>
+										</svg>
+										<span>1</span>
+									</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="section-news">
+			<section class="section-news section-news-item">
 				<div class="section-news__container">
-					<h3 class="section-news__title title">НАШИ НОВОСТИ</h3>
+					<div class="section-news-item__head">
+						<h3 class="section-news__title title-simple">Недавние посты</h3>
+						<a href="#" class="section-news__btn btn">
+							Все
+							<span>посты</span>
+						</a>
+					</div>
 
 					<div class="section-news__slider swiper">
 						<div class="section-news__wrapper swiper-wrapper">
@@ -292,134 +356,52 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-video">
-				<div class="section-video__container">
-					<iframe frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Бассейн Юность" width="100%" height="100%" src="https://www.youtube.com/embed/LlNgFxNyD-4?autoplay=0&amp;mute=0&amp;controls=1&amp;loop=0&amp;origin=https%3A%2F%2Fwww.spb26.com&amp;playsinline=1&amp;enablejsapi=1&amp;widgetid=1" id="widget2" data-gtm-yt-inspected-7="true" class="section-video__video"></iframe>
-				</div>
-			</section>
-			<section class="section-team">
-				<div class="section-team__container">
-					<div class="section-team__content">
-						<h3 class="section-team__title title">НАШ КОЛЛЕКТИВ</h3>
-						<p class="section-team__subtitle">
-							<span>Хотите плавать с тренером? Записаться в два клика</span>
-						</p>
-						<div class="section-team__button">
-							<a href="#" class="section-team__btn btn-outline">Записаться</a>
-						</div>
-						<div class="section-team__slider swiper">
-							<div data-gallery class="section-team__wrapper swiper-wrapper">
-								<div class="section-team__slide swiper-slide">
-									<div class="section-team__slide">
-										<a href="img/team/2.jpg" class="section-team__link">
-											<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="" /></picture>
-										</a>
-									</div>
+			<section class="section-comments">
+				<div class="section-comments__container">
+					<h3 class="section-comments__title title-simple">Комментарии:</h3>
+					<ul class="section-comments__comments">
+						<li class="section-comments__comment">
+							<div class="section-comments__head card-head">
+								<div class="card-head__ava">
+									<picture><source srcset="img/news/ava1.webp" type="image/webp"><img src="img/news/ava1.jpg" alt="" /></picture>
 								</div>
-								<div class="section-team__slide swiper-slide">
-									<div class="section-team__slide">
-										<a href="img/team/2.jpg" class="section-team__link">
-											<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="" /></picture>
-										</a>
-									</div>
-								</div>
-								<div class="section-team__slide swiper-slide">
-									<div class="section-team__slide">
-										<a href="img/team/2.jpg" class="section-team__link">
-											<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="" /></picture>
-										</a>
-									</div>
-								</div>
-								<div class="section-team__slide swiper-slide">
-									<div class="section-team__slide">
-										<a href="img/team/2.jpg" class="section-team__link">
-											<picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="" /></picture>
-										</a>
+								<div class="card-head__author">
+									<div class="card-head__name">Администрация</div>
+									<div class="card-head__time">
+										<span>5 дней назад</span>
 									</div>
 								</div>
 							</div>
-
-							<button type="button" class="swiper-button-prev swiper-button-prev-team"></button>
-							<button type="button" class="swiper-button-next swiper-button-next-team"></button>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="section-contacts">
-				<div class="section-contacts__container">
-					<h3 class="section-contacts__title title">КОНТАКТЫ</h3>
-					<ul class="section-contacts__list list-info">
-						<li>
-							<h4 class="list-info__title">ГРАФИК РАБОТЫ:</h4>
-							<div class="list-info__subtitle">
-								<span>Пн-пт: с 7:00 - 21:00</span>
-								<span>Сб-вс: с 8:00 - 21:00</span>
-							</div>
+							<p class="section-comments__p">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, unde et id molestiae itaque ipsum
+								fugiat ratione harum tempora vero quia cum nam atque, at eos, deleniti debitis. Ducimus, mollitia?
+							</p>
 						</li>
-						<li>
-							<h4 class="list-info__title">АДРЕС:</h4>
-							<div class="list-info__subtitle">
-								<span>г.Ставрополь,</span>
-								<span>ул. Суворова, 7</span>
+						<li class="section-comments__comment">
+							<div class="section-comments__head card-head">
+								<div class="card-head__ava">
+									<picture><source srcset="img/news/ava1.webp" type="image/webp"><img src="img/news/ava1.jpg" alt="" /></picture>
+								</div>
+								<div class="card-head__author">
+									<div class="card-head__name">Администрация</div>
+									<div class="card-head__time">
+										<span>5 дней назад</span>
+										<span>1 мин. чтения</span>
+									</div>
+								</div>
 							</div>
-						</li>
-						<li>
-							<h4 class="list-info__title">E-MAIL:</h4>
-							<div class="list-info__subtitle">
-								<a href="#" class="list-info__link">stavspb@yandex.ru</a>
-							</div>
-						</li>
-						<li>
-							<h4 class="list-info__title">ТЕЛЕФОН:</h4>
-							<div class="list-info__subtitle">
-								<span>+7 (8652) 22-13-61</span>
-							</div>
+							<p class="section-comments__p">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, unde et id molestiae itaque ipsum
+								fugiat ratione harum tempora vero quia cum nam atque, at eos, deleniti debitis. Ducimus, mollitia?
+							</p>
 						</li>
 					</ul>
-					<div class="section-contacts__map map">
-						<div id="map"></div>
-					</div>
-				</div>
-			</section>
-			<section class="section-form">
-				<div class="section-form__container">
-					<div class="section-form__content">
-						<h3 class="section-form__title title">УЖЕ БЫЛИ У НАС?</h3>
-						<form action="#" class="section-form__form form">
-							<ul class="form__inputs">
-								<li class="form__input">
-									<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Имя" class="form__data input" />
-								</li>
-								<li class="form__input">
-									<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Фамилия" class="form__data input" />
-								</li>
-								<li class="form__input">
-									<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Эл. почта" class="form__data input" />
-								</li>
-								<li class="form__input">
-									<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Телефон" class="form__data input" />
-								</li>
-							</ul>
-							<div class="form__rating rating rating_set">
-								<div class="rating__body">
-									<div class="rating__active"></div>
-									<div class="rating__items">
-										<input type="radio" class="rating__item" value="1" data-rating="Плохо" name="rating" />
-										<input type="radio" class="rating__item" value="2" data-rating="Средне" name="rating" />
-										<input type="radio" class="rating__item" value="3" data-rating="Хорошо" name="rating" />
-										<input type="radio" class="rating__item" value="4" data-rating="Очень хорошо
-                    " name="rating" />
-										<input type="radio" class="rating__item" value="5" data-rating="Великолепно" name="rating" />
-									</div>
-								</div>
-								<div class="rating__value">Пожалуйста оцените</div>
-							</div>
-							<textarea placeholder="Напишите отзыв здесь" name="#" id="#" class="form__textarea textarea"></textarea>
-							<div class="form__button">
-								<button class="form__btn btn-outline">Отправить</button>
-							</div>
-						</form>
-					</div>
+					<form action="" class="section-comments__form">
+						<input autocomplete="off" placeholder="Ваш комментарий" type="text" name="form[]" data-error="Не соответсвует!" placeholder="" class="input" />
+						<div class="section-comments__button">
+							<button class="section-comments__btn btn">Отправить</button>
+						</div>
+					</form>
 				</div>
 			</section>
 		</main>

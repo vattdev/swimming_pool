@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Noname</title>
+	<title>Настольный теннис</title>
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -103,18 +103,29 @@
 		</header>
 
 		<main class="main">
-			<section class="section-time">
-				<div class="section-time__container">
-					<div class="section-time__content">
-						<h1 class="section-time__title title-main">РАСПИСАНИЕ ГРУПП ПО ПЛАВАНИЮ</h1>
-						<ul class="section-time__list">
-							<li class="section-time__img">
-								<picture><source srcset="img/time1.webp" type="image/webp"><img src="img/time1.png" alt="" /></picture>
-							</li>
-							<li class="section-time__img">
-								<picture><source srcset="img/time2.webp" type="image/webp"><img src="img/time2.png" alt="" /></picture>
-							</li>
-						</ul>
+			<section class="section-swim section-swim-fitnes">
+				<div class="section-swim__container">
+					<h1 class="section-swim__title title-main">Настольный теннис</h1>
+					<div class="section-swim__button">
+						<picture><source srcset="img/tennis.webp" type="image/webp"><img src="img/tennis.jpg" alt="" /></picture>
+					</div>
+					<div class="section-swim__slider-tennis swiper">
+						<div class="section-swim__wrapper swiper-wrapper">
+							<div class="section-swim__slide swiper-slide">
+								<a href="img/tennis1.mp4" class="section-swim__video">
+									<video src="img/tennis1.mp4" autoplay muted loop controls alt=""></video>
+								</a>
+							</div>
+							<div class="section-swim__slide swiper-slide">
+								<a href="img/tennis2.mp4" class="section-swim__video">
+									<video src="img/tennis2.mp4" controls alt=""></video>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-pagination swiper-pagination-swim"></div>
+						<button type="button" class="swiper-button-prev swiper-button-prev-swim"></button>
+						<button type="button" class="swiper-button-next swiper-button-next-swim"></button>
+						<!-- <div class="swiper-scrollbar"></div> -->
 					</div>
 				</div>
 			</section>
