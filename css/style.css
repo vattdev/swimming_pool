@@ -911,6 +911,10 @@ main {
   width: 100%;
 }
 
+.section-team {
+  margin-top: 80px;
+}
+
 .section-team__container {
   width: 100%;
 }
@@ -3785,12 +3789,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     margin-top: 2.5rem;
   }
 
-  .section-video {
-    margin-bottom: 2.5rem;
-  }
-
   .section-video__video {
     height: 12.5rem;
+  }
+
+  .section-team {
+    margin-top: 2.5rem;
   }
 
   .section-team__subtitle span {
@@ -4181,15 +4185,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (margin-top: clamp( 2.5rem , 1.5rem  +  5vw , 7.5rem )) {
+@supports (margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
     .section-news {
-      margin-top: clamp( 2.5rem , 1.5rem  +  5vw , 7.5rem );
+      margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem );
     }
 }
 
-@supports not (margin-top: clamp( 2.5rem , 1.5rem  +  5vw , 7.5rem )) {
+@supports not (margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
     .section-news {
-      margin-top: calc(2.5rem + 5*(100vw - 20rem)/100);
+      margin-top: calc(2.5rem + 2.5*(100vw - 20rem)/100);
     }
 }
 
@@ -4217,18 +4221,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     }
 }
 
-@supports (margin-bottom: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
-    .section-video {
-      margin-bottom: clamp( 2.5rem , 2rem  +  2.5vw , 5rem );
-    }
-}
-
-@supports not (margin-bottom: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
-    .section-video {
-      margin-bottom: calc(2.5rem + 2.5*(100vw - 20rem)/100);
-    }
-}
-
 @supports (height: clamp( 12.5rem , 8.25rem  +  21.25vw , 33.75rem )) {
     .section-video__video {
       height: clamp( 12.5rem , 8.25rem  +  21.25vw , 33.75rem );
@@ -4238,6 +4230,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (height: clamp( 12.5rem , 8.25rem  +  21.25vw , 33.75rem )) {
     .section-video__video {
       height: calc(12.5rem + 21.25*(100vw - 20rem)/100);
+    }
+}
+
+@supports (margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
+    .section-team {
+      margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem );
+    }
+}
+
+@supports not (margin-top: clamp( 2.5rem , 2rem  +  2.5vw , 5rem )) {
+    .section-team {
+      margin-top: calc(2.5rem + 2.5*(100vw - 20rem)/100);
     }
 }
 
